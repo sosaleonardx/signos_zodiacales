@@ -1,6 +1,7 @@
 <html>
 <head>
 <title> Signos zodiacales *brillitos* </title>
+<link rel="shortcut icon" href="colegio_técnico_nacional_informática.png">
 </head>
 <body>
 <form action="Condicionales.php" method="POST">
