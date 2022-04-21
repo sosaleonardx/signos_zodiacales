@@ -1,16 +1,17 @@
 <html>
 <head>
-<title> Signos zodiacales *brillitos* </title>
+<title> ¡Descubre tu signo zodiacal ahora! </title>
 </head>
 <body>
 <form action="Condicionales.php" method="POST">
 
-<h2> Introduzca el día de su nacimiento <h2>
+<h2> ¡Hola! Gracias por apoyar este proyecto en crecimiento, mi nombre es Leo :) <h2> 
+<h2> Para comenzar, introduzca el día de su nacimiento <h2>
 <select name="dia">
-<option value=1> 1 </option>
-<option value=2> 2 </option>
-<option value=3> 3 </option>
-<option val> 4 </option>
+<option value=1 > 1 </option>
+<option value=2 > 2 </option>
+<option value=3 > 3 </option>
+<option value=4 > 4 </option>
 <option value=5 > 5 </option>
 <option value=6 > 6 </option>
 <option value=7 > 7 </option>
@@ -40,7 +41,7 @@
 <option value=31 > 31 </option>
 </select>
 
-<h2> Introduzca el mes de su nacimiento </h2>
+<h2> Ahora, introduzca el mes de su nacimiento </h2>
 <select name="mes">
 <option value=1 > Enero </option>
 <option value=2 > Febrero </option>
@@ -49,8 +50,8 @@
 <option value=5 > Mayo </option>
 <option value=6 > Junio </option>
 <option value=7 > Julio </option>
-<option value=8 > Agosto</option>
-<option value=9 > Septiembre</option>
+<option value=8 > Agosto </option>
+<option value=9 > Septiembre </option>
 <option value=10 > Octubre </option>
 <option value=11 > Noviembre </option>
 <option value=12 > Diciembre </option>
@@ -66,7 +67,7 @@
  $mes=$_POST["mes"];
  if ($mes==1) {
 	if ($dia<=20) {
-	 echo "Opa, tu signo es 'Capricornio' ";
+	 echo "Yay!, tu signo es 'Capricornio' ";
  
 	}else { 
 	echo "Opa, tu signo es 'Acuario' ";
@@ -129,14 +130,14 @@ if ($mes==3) {
 	 echo "Opa, tu signo es 'Cáncer' ";
  
 	}else { 
-	echo "Opa, tu signo es 'Leo' ";
+	echo "¡Vaya vaya!, tu signo es 'Leo' ";
  }
 
  }
  
  if ($mes==8) {
 	if ($dia<=22) {
-	 echo "Opa, tu signo es 'Leo' ";
+	 echo "¡Vaya vaya!, tu signo es 'Leo' ";
  
 	}else { 
 	echo "Epa el mejor, tu signo es 'Virgo' ";
